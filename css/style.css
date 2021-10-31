@@ -10016,3 +10016,34 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  height: 360px;
+}
+
+.carousel-title{
+  text-align: center;
+  font-size: 38px;
+  font-family: Sansita;
+  padding-bottom: 20px;
+  color: darkolivegreen;
+}
+
+.carousel-desc{
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  color: darkslategrey;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .carousel-desc{
+      padding: 0px 180px;
+  }
+}
+
